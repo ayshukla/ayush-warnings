@@ -3,14 +3,11 @@ config-version: 2
 name: "jaffle_shop"
 version: "3.0.0"
 
-dbt-cloud:
-  project-id: 275557 # Put your project id here
-
 profile: default # Put your profile here
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
-test-paths: ["data-tests"]
+test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
